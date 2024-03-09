@@ -1,0 +1,31 @@
+body {
+    background-color: #2F3033;
+  }
+  
+  .rounded-list {
+    border-radius: 10px; /* Adjust the value for desired roundness */
+    padding: 15px; /* Adjust padding as needed */
+    list-style: none; /* Remove default bullet points */
+    background-color: #057cf3;
+    width: 180px;
+    height: 165px;
+    float: left; /* Use float to make elements appear next to each other */
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  .rounded-image {
+    border-radius: 7%; /* 50% will make the image circular, adjust as needed */
+    overflow: hidden; /* Ensures the rounded corners are visible */
+  }
+  
+  .p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: medium;
+    text-align: center;
+  }
+  
+  .clear {
+    clear: both; /* Clear the float to prevent layout issues */
+  }
+  
