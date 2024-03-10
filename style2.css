@@ -6,9 +6,9 @@ body {
     border-radius: 10px; /* Adjust the value for desired roundness */
     padding: 15px; /* Adjust padding as needed */
     list-style: none; /* Remove default bullet points */
-    background-color: #057cf3;
+    background-color: #00623a;
     width: 225px;
-    height: 165px;
+    height: 195px;
     float: left; /* Use float to make elements appear next to each other */
     margin-right: 20px; /* Adjust the margin as needed */
     white-space: nowrap; /* Ensures that the text does not wrap to the next line */
@@ -30,4 +30,17 @@ body {
     clear: both; /* Clear the float to prevent layout issues */
   }
   
-  
+  .military-image {
+    width: 200px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    display: block; /* Makes the image behave like a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+  }
+
+  .logo,
+  .logo2 {
+    width: 22px;
+    height: 13px;
+    display: inline-block; /* Change display property to inline-block */
+    margin: 5px; /* Adjust margin as needed */
+  }
