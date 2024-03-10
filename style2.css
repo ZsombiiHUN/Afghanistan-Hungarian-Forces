@@ -7,10 +7,11 @@ body {
     padding: 15px; /* Adjust padding as needed */
     list-style: none; /* Remove default bullet points */
     background-color: #057cf3;
-    width: 180px;
+    width: 195px;
     height: 165px;
     float: left; /* Use float to make elements appear next to each other */
     margin-right: 20px; /* Adjust the margin as needed */
+    white-space: nowrap; /* Ensures that the text does not wrap to the next line */
   }
   
   .rounded-image {
@@ -28,4 +29,5 @@ body {
   .clear {
     clear: both; /* Clear the float to prevent layout issues */
   }
+  
   
