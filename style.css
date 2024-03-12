@@ -51,3 +51,12 @@ button {
   cursor: pointer;
   border-radius: 12px; /* Set the desired roundness here */
 }
+
+.rounded-image {
+  /* Set a maximum width for responsive scaling */
+  max-width: 769px;  /* Adjust as needed */
+  height: auto;     /* Maintains aspect ratio */
+  border-radius: 5%; /* 50% will make the image circular, adjust as needed */
+  overflow: hidden; /* Ensures the rounded corners are visible */
+  display: flex;
+}

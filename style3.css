@@ -1,0 +1,54 @@
+body {
+    background-color: #2F3033;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  .p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: medium;
+    text-align: center;
+  }
+
+  .p2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 15px;
+  }
+
+  .logo,
+  .logo2 {
+    width: 250px;
+    height: 250px;
+    display: block; /* Change display property to inline-block */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rounded-image {
+    border-radius: 7%; /* 50% will make the image circular, adjust as needed */
+    overflow: hidden; /* Ensures the rounded corners are visible */
+  }
+
+  .image-container {
+    display: flex; /* Makes the container a flexbox */
+    flex-wrap: wrap; /* Allows images to wrap to the next line */
+  }
+  
+  .image-container {
+    display: flex; /* Makes the container a flexbox */
+    flex-wrap: wrap; /* Allows images to wrap to the next line */
+  }
+  
+  .image-container .military-image {
+    /* Set a maximum width for responsive scaling */
+    max-width: 360px;  /* Adjust as needed */
+    height: auto;     /* Maintains aspect ratio */
+    margin: 0;        /* Remove margin for side-by-side placement */
+    margin-right: 10px; /* Add space between images (optional) */
+  }
+  
